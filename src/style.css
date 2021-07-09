@@ -1,0 +1,65 @@
+.App{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #282c34;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    min-height: 80vh;
+    background-color: #fff;
+    padding: 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contents{
+    width: 100%;
+}
+
+.my-name{
+    padding: 3px;
+    margin: 3px;
+    border-radius: 80px;
+    background-color: #ffdc42;
+}
+
+.intro{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 10%;
+}
+
+.input{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    color: #282c34;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.start-button{
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #218BE6;
+    border: 0px;
+    display: inline-block;
+}
+
+.main-pic{
+    width: 200px;
+    margin: 50px;
+}
